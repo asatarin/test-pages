@@ -25,10 +25,8 @@ $(function() {
 });
 </script>
     
-    {% include counter.html %}
     
     <section class="page-header">
-      {% include navigation.html %}
       <h1 class="page-title">{{ page.title | default: site.github.repository_name }}</h1>
     </section>
 
@@ -36,7 +34,7 @@ $(function() {
       {{ content }}
       
       <footer class="site-footer">
-{% include footer.html %}
+
        </footer>
 
     </section>
