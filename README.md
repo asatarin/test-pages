@@ -8,6 +8,7 @@ Comments and feedback https://docs.google.com/document/d/1k0MLqGJOKMozLoWKEvPwXC
 {% endcomment %}
 
 **Contents**
+
 {% comment %}
 Use TOC generator to update this https://luciopaiva.com/markdown-toc/
 {% endcomment %}
