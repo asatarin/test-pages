@@ -8,7 +8,9 @@ Comments and feedback https://docs.google.com/document/d/1k0MLqGJOKMozLoWKEvPwXC
 {% endcomment %}
 
 **Contents**
-<!-- Use TOC generator to update this https://luciopaiva.com/markdown-toc/ -->
+{% comment %}
+Use TOC generator to update this https://luciopaiva.com/markdown-toc/
+{% endcomment %}
 
 - [Overview of testing approaches](#overview-of-testing-approaches)
   - [Research Papers](#research-papers)
