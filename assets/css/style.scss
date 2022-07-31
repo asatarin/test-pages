@@ -1,0 +1,9 @@
+h1 .anchor, h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor  {
+  visibility: hidden;
+  text-indent: -1em;
+}
+
+h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
+  visibility: visible;
+  text-indent: -1em;
+}
