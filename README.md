@@ -3,6 +3,10 @@ If you are interested in my other stuff, checkout [talks](https://asatarin.githu
 For any questions or suggestions you can reach out to me on Twitter ([@asatarin](https://twitter.com/asatarin)) or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 
 
+{% comment %}
+Comments and feedback https://docs.google.com/document/d/1k0MLqGJOKMozLoWKEvPwXCzOiTRuMd9Orw9zT0eDpic/edit#
+{% endcomment %}
+
 **Contents**
 <!-- Use TOC generator to update this https://luciopaiva.com/markdown-toc/ -->
 
