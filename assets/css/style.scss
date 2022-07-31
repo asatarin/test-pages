@@ -8,10 +8,10 @@ h2, h3, h4, h5, h6  {
   text-indent: -1em;
 }
  
-h1 .anchor, h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor  {
+h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor  {
   visibility: hidden;
 }
 
-h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
+h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
   visibility: visible;
 }
