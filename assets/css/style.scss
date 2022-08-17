@@ -17,6 +17,10 @@ a {
 //   text-indent: -1em;
 // }
  
+ul {
+    list-style-type: '— ';
+}
+
 h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor  {
   visibility: hidden;
 }
