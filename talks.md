@@ -8,6 +8,19 @@ description: Public talks and interviews given by Andrey Satarin on various tech
 - [Formal Methods at Amazon S3](2022-02-formal-methods-at-amazon-s3) (February, 2022)
 
 ### Russian
+
+<table>
+  <tr>
+    <td>September, 2020</td> <td>        </td> <td> <a href="2020-09-heisenbug-show">Heisenbug Show Interview</a> </td>
+  </tr>
+  <tr>
+    <td>June, 2020</td>  <td>      </td>    <td> [Hydra Heads Interview](2020-06-hydra-heads-interview) </td>
+  </tr>
+  <tr>
+    <td>May, 2018</td> <td>      </td> <td>[EqualsVerifier, ErrorProne and All the Others](equals-verifier-and-error-prone)</td>
+  </tr> 
+</table>
+
 - [Heisenbug Show Interview](2020-09-heisenbug-show) (September, 2020)
 - [Hydra Heads Interview](2020-06-hydra-heads-interview) (June, 2020)
 - [EqualsVerifier, ErrorProne and All the Others](equals-verifier-and-error-prone) (May, 2018)
