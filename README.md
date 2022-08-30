@@ -75,6 +75,10 @@ Use TOC generator to update this https://luciopaiva.com/markdown-toc/
 <iframe loading="lazy" src="https://www.youtube.com/embed/LACafAXKQ4Y" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<div class="video-container">
+<img src="2022-05-understanding-partial-failures-30.png" alt="test">
+</div>
+
 ## Overview of testing approaches
 
 ### Research Papers
