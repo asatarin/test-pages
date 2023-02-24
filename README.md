@@ -7,6 +7,23 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
 Comments and feedback https://docs.google.com/document/d/1k0MLqGJOKMozLoWKEvPwXCzOiTRuMd9Orw9zT0eDpic/edit#
 {% endcomment %}
 
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">For quite some time I&#39;ve been putting together a list of resources on testing distributed systems<a href="https://t.co/J1orsmPCXs">https://t.co/J1orsmPCXs</a>
+</p>
+&mdash; Andrey Satarin / discuss.systems/@asatarin (@asatarin) 
+<a href="https://twitter.com/asatarin/status/991345915196727296?ref_src=twsrc%5Etfw">May 1, 2018</a>
+</blockquote> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+{% include tweet.html 
+  content="For quite some time I've been putting together a list of resources on testing distributed systems https://asatarin.github.io/testing-distributed-systems/" 
+  author="asatarin@" 
+  url="https://twitter.com/asatarin/status/991345915196727296"
+  date="May 1, 2018"
+%}
+
+
 **Contents**
 
 {% comment %}
