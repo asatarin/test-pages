@@ -15,7 +15,12 @@ Comments and feedback https://docs.google.com/document/d/1k0MLqGJOKMozLoWKEvPwXC
 </blockquote> 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-{% include tweet.html text="For quite some time I've been putting together a list of resources on testing distributed systems https://asatarin.github.io/testing-distributed-systems/" author="asatarin" url="https://twitter.com/asatarin/status/991345915196727296" date="May 1, 2018" %}
+{% include tweet.html 
+  text="For quite some time I've been putting together a list of resources on testing distributed systems <a href="https://asatarin.github.io/testing-distributed-systems/">https://asatarin.github.io/testing-distributed-systems/</a>
+  author="asatarin"
+  url="https://twitter.com/asatarin/status/991345915196727296" 
+  date="May 1, 2018" 
+%}
 
 
 **Contents**
