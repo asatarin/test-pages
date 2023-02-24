@@ -10,7 +10,7 @@
 </div>
 
 <div> 
-  <canvas id="the-canvas" width="600" height="600" ></canvas>
+  <canvas id="the-canvas"></canvas>
 </div>
 
 <script src="https://asatarin.github.io/test-pages/assets/js/slides.js"></script>
