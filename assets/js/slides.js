@@ -38,10 +38,6 @@ function renderPage(num) {
     var viewport = page.getViewport({scale: scale});
 //     canvas.height = viewport.height;
 //     canvas.width = viewport.width;
-    scale = 
-    var viewport1 = page.getViewport({scale: scale});
-
-
     // Render PDF page into canvas context
     var renderContext = {
       canvasContext: ctx,
