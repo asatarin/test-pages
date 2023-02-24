@@ -106,6 +106,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   document.getElementById('page_count').textContent = pdfDoc.numPages;
 
   // Initial/first page rendering
-  setCanvasHeight(pdfDoc);
+//  setCanvasHeight(pdfDoc);
   renderPage(pageNum);
 });
