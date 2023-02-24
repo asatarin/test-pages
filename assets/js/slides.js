@@ -22,7 +22,7 @@ var pdfDoc = null,
  * setCanvasHeight and scale.
  */
 function setCanvasHeight() {
-    var viewport = page.getViewport({scale: 1})
+    var viewport = pdfDoc.getPage(1).getViewport({scale: 1})
     scale = canvas.width / viewport.width;
     canvas.height = scale * viewport.height;
 }
