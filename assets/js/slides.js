@@ -14,16 +14,16 @@ var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
     pageNumPending = null,
-    scale = 0.8,
+    scale = 0.5,
     canvas = document.getElementById('the-canvas'),
     ctx = canvas.getContext('2d');
 
 /**
  * setCanvasHeight and scale.
  */
-function setCanvasHeight() {
+function setCanvasHeight(pdfDoc) {
     pdfDoc.getPage(pageNum).then(function(page) {
-        var viewport = page.getViewport({scale: 1})
+        var viewport = page.getViewport({scale: 1.0})
         scale = canvas.width / viewport.width;
         canvas.height = scale * viewport.height;
     }
@@ -106,6 +106,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   document.getElementById('page_count').textContent = pdfDoc.numPages;
 
   // Initial/first page rendering
-  setCanvasHeight();
+  setCanvasHeight(pdfDoc);
   renderPage(pageNum);
 });
