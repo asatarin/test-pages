@@ -1,8 +1,8 @@
 
 <blockquote class="twitter-tweet">
-  <p lang="en" dir="ltr">{{ text }}</p>
-  &mdash; {{ author }}
-  <a href="{{ url }}">{{ date }}}</a>
+  <p lang="en" dir="ltr">{{ include.text }}</p>
+  &mdash; {{ include.author }}
+  <a href="{{ include.url }}">{{ include.date }}}</a>
 </blockquote> 
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
