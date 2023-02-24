@@ -1,7 +1,7 @@
 
 <blockquote class="tweet">
   <a href="https://twitter.com/{{ include.author }}">@{{ include.author }}</a>
-  <p lang="en" dir="ltr">{{ include.text }}</p>
+  <p lang="en" dir="ltr">{{ include.text | markdownify }}</p>
   <a href="{{ include.url }}">{{ include.date }}</a>
 </blockquote>
 
