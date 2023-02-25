@@ -14,20 +14,9 @@ var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
     pageNumPending = null,
-    scale = 0.5,
+    scale = 0.8,
     canvas = document.getElementById('the-canvas'),
     ctx = canvas.getContext('2d');
-
-/**
- * setCanvasHeight and scale.
- */
-function setCanvasHeight(pdfDoc_) {
-    pdfDoc_.getPage(pageNum).then(function(page) {
-        var viewport = page.getViewport({scale: 1.0})
-        scale = canvas.width / viewport.width;
-        canvas.height = scale * viewport.height;
-    }
-}
 
 /**
  * Get page info from document, resize canvas accordingly, and render page.
@@ -38,8 +27,9 @@ function renderPage(num) {
   // Using promise to fetch the page
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas.height = scale * viewport.height;
-    canvas.width = scale * viewport.width;
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
     // Render PDF page into canvas context
     var renderContext = {
       canvasContext: ctx,
@@ -106,6 +96,5 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   document.getElementById('page_count').textContent = pdfDoc.numPages;
 
   // Initial/first page rendering
-  // setCanvasHeight(pdfDoc);
   renderPage(pageNum);
 });
