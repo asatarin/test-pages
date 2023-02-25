@@ -1,6 +1,11 @@
+---
+title: Test talks
+description: Test talks with PDF.js
+---
+
 <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
 
-<h1>PDF.js Previous/Next example</h1>
+## PDF.js Previous/Next example
 
 <div>
   <button id="prev">Previous</button>
