@@ -17,7 +17,7 @@ var pdfDoc = null,
 //     scale = 0.8,
     canvas = document.getElementById('the-canvas'),
 //     desiredWidth = document.body.clientWidth;
-    desiredWidth = document.getElementById('main-content').width,
+    desiredWidth = 800, //document.getElementById('main-content').width,
     ctx = canvas.getContext('2d');
 
 
