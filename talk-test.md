@@ -23,16 +23,16 @@ description: Test talks with PDF.js
 
 ### IFrame
 
-<iframe src="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf#toolbar=0&navpanes=0&scrollbar=0" width="100%" height="600px"></iframe>
 
 
 ### IFrame with page
 
-<iframe src="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf#page=5" width="100%" height="600px"></iframe>
+<iframe src="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf#page=5#toolbar=0&navpanes=0&scrollbar=0" width="100%" height="600px"></iframe>
 
 ### Object
 
-<object style="width: 100%; height: 600px" data="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf" type="application/pdf"></object>
+<object style="width: 100%; height: 600px" data="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf"></object>
 
-
-<object style="width: 100%; height: 600px" data="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf#page=5" type="application/pdf"></object>
+### Object with page 
+<object style="width: 100%; height: 600px" data="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf#page=5#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf"></object>
