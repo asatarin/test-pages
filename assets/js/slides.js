@@ -16,7 +16,9 @@ var pdfDoc = null,
     pageNumPending = null,
     scale = 0.8,
     canvas = document.getElementById('the-canvas'),
+    desiredWidth = document.getElementById('canvas-parent').width,
     ctx = canvas.getContext('2d');
+
 
 /**
  * Get page info from document, resize canvas accordingly, and render page.
@@ -28,7 +30,6 @@ function renderPage(num) {
   pdfDoc.getPage(num).then(function(page) {
 
     // desiredWidth
-    var desiredWidth = canvas.width;
     var viewport_1 = page.getViewport({ scale: 1, });
     var scale_ = desiredWidth / viewport_1.width;
     var viewport = page.getViewport({scale: scale_});
