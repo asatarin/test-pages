@@ -23,5 +23,5 @@ description: Test talks with PDF.js
 
 ### IFrame
 
-<iframe src="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf" width="100%" height="500px">
+<iframe src="https://asatarin.github.io/assets/talks/2023-01-how-to-fight-production-incidents.pdf" width="100%">
 
