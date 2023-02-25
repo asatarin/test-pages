@@ -16,7 +16,8 @@ var pdfDoc = null,
     pageNumPending = null,
     scale = 0.8,
     canvas = document.getElementById('the-canvas'),
-    desiredWidth = document.getElementById('canvas-parent').width,
+    desiredWidth = document.body.clientWidth;
+//     desiredWidth = document.getElementById('canvas-parent').width,
     ctx = canvas.getContext('2d');
 
 
