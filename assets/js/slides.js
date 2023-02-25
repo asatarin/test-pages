@@ -21,8 +21,8 @@ var pdfDoc = null,
 /**
  * setCanvasHeight and scale.
  */
-function setCanvasHeight(pdfDoc) {
-    pdfDoc.getPage(pageNum).then(function(page) {
+function setCanvasHeight(pdfDoc_) {
+    pdfDoc_.getPage(pageNum).then(function(page) {
         var viewport = page.getViewport({scale: 1.0})
         scale = canvas.width / viewport.width;
         canvas.height = scale * viewport.height;
@@ -106,6 +106,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   document.getElementById('page_count').textContent = pdfDoc.numPages;
 
   // Initial/first page rendering
-//  setCanvasHeight(pdfDoc);
+  setCanvasHeight(pdfDoc);
   renderPage(pageNum);
 });
