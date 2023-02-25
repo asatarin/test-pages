@@ -26,9 +26,15 @@ function renderPage(num) {
   pageRendering = true;
   // Using promise to fetch the page
   pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
+
+    // desiredWidth
+    var desiredWidth = canvas.width;
+    var viewport_1 = page.getViewport({ scale: 1, });
+    var scale_ = desiredWidth / viewport_1.width;
+    var viewport = page.getViewport({scale: scale_});
+      
     canvas.height = viewport.height;
-    canvas.width = viewport.width;
+//     canvas.width = viewport.width;
 
     // Render PDF page into canvas context
     var renderContext = {
