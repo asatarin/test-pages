@@ -9,6 +9,8 @@
   <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
 
-<canvas id="the-canvas" width="600" style="border:1px solid" ></canvas>
+<div if="canvas-parent" width="100%">
+  <canvas id="the-canvas" style="border:1px solid" ></canvas>
+</div>
 
 <script src="https://asatarin.github.io/test-pages/assets/js/slides.js"></script>
