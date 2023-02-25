@@ -39,7 +39,7 @@ function renderPage(num) {
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
     canvas.height = scale * viewport.height;
-//     canvas.width = viewport.width;
+    canvas.width = scale * viewport.width;
     // Render PDF page into canvas context
     var renderContext = {
       canvasContext: ctx,
@@ -106,6 +106,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   document.getElementById('page_count').textContent = pdfDoc.numPages;
 
   // Initial/first page rendering
-  setCanvasHeight(pdfDoc);
+  // setCanvasHeight(pdfDoc);
   renderPage(pageNum);
 });
