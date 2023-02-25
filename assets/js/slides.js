@@ -34,9 +34,10 @@ function renderPage(num) {
     var viewport_1 = page.getViewport({ scale: 1, });
     var scale_ = desiredWidth / viewport_1.width;
     var viewport = page.getViewport({scale: scale_});
-      
+
+    canvas.width = desiredWidth;
     canvas.height = viewport.height;
-//     canvas.width = viewport.width;
+
 
     // Render PDF page into canvas context
     var renderContext = {
