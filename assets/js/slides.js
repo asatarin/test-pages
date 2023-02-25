@@ -14,10 +14,10 @@ var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
     pageNumPending = null,
-    scale = 0.8,
+//     scale = 0.8,
     canvas = document.getElementById('the-canvas'),
-    desiredWidth = document.body.clientWidth;
-//     desiredWidth = document.getElementById('canvas-parent').width,
+//     desiredWidth = document.body.clientWidth;
+    desiredWidth = document.getElementById('main-content').width,
     ctx = canvas.getContext('2d');
 
 
