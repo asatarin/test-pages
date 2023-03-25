@@ -47,6 +47,7 @@ and provide guidance on how to tackle complex incidents through automation or te
 
   function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
+      videoId: 'j6Z-TawfQns',
       events: {
         'onReady': onPlayerReady
       }
