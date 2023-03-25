@@ -58,7 +58,7 @@ and provide guidance on how to tackle complex incidents through automation or te
   }
   
   document.getElementById('seekButton').addEventListener('click', function() {
-    player.seekTo(30); // Seeks to 30 seconds into the video
+    player.seekTo(30, true); // Seeks to 30 seconds into the video
   });
 </script>
 
