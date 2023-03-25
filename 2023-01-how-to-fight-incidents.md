@@ -60,6 +60,8 @@ and provide guidance on how to tackle complex incidents through automation or te
     });
   }
   
+  console.log(player);
+  
 </script>
 
 
