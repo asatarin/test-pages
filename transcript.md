@@ -119,7 +119,7 @@ just delays in deployment and a lot of times it’s unclear 27% of times they ju
 don’t know what caused the delay mitigation.
 
 12:38 This kind of tells us that this whole thing is pretty complicated in terms of figuring out what actually causes
-those things because even local Engineers who had way more contacts in the particular incident still don’t have enough
+those things because even on-call engineers who had way more contacts in the particular incident still don’t have enough
 information to make that call.
 
 12:59 As I mentioned, like 30% of those are not caused by any systems itself but by some kind of documentation
@@ -128,7 +128,7 @@ for improvement even without changing the code or like I guess except the manual
 can still have improved time to mitigate by changing the communication procedures or improving those.
 
 13:34 Overall, Lessons Learned, basically this is not what odd as part of this and this is not what authors like kind of
-learn from all incidents, this is what they aggregated across different categories of incidents what actual Uncle
+learn from all incidents, this is what they aggregated across different categories of incidents what actual on-call
 Engineers put in the Lessons Learned category for specific incident and then they aggregated them in different
 categories to see like what are the and excuse me I need to fix that.
 
@@ -141,7 +141,7 @@ alerting triaging things like that automated deployment.
 out that the system is broken before production is important but like unfortunately Papercut doesn’t go into the details
 like what kind of testing is helpful there are some other papers who will which are like focused specifically on
 incidents caused by bugs and how to address those but that paper is more high level I guess and it doesn’t go into
-detail in actually how to improve the testing just as like yes Uncle Engineers think that in a lot of incidents testing
+detail in actually how to improve the testing just as like yes on-call engineers think that in a lot of incidents testing
 and detecting issues with the system earlier in a cycle before it gets deployed to production is important but they
 don’t talk much or at all about what kind of testing and how to prevent those incidents with specific tasks.
 
