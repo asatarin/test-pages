@@ -3,6 +3,7 @@ title: Transcript
 description: Transcript
 ---
 
+<hr>
 
 0:05 Hi everyone! Today, I’m going to be talking about this paper, “How to Find Production Incidents: Empirical Study”.
 
