@@ -4,10 +4,12 @@ description: Transcript
 ---
 
 <details>
+
 <summary>
 Please note that this AI-generated video transcript may contain inaccuracies or omissions. 
 I encourage you to use it as a reference only and verify information with the original video if needed.
 </summary>
+
 
 0:05 Hi everyone! Today, I’m going to be talking about this paper, “How to Find Production Incidents: Empirical Study”.
 
