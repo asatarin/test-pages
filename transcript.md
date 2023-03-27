@@ -3,11 +3,12 @@ title: Transcript
 description: Transcript
 ---
 
-Please note that this AI-generated video transcript may contain inaccuracies or omissions. 
-I encourage you to use it as a reference only and verify information with the original video if needed.
+{% include details.html
 
-<hr>
+  summary="Please note that this AI-generated video transcript may contain inaccuracies or omissions. 
+I encourage you to use it as a reference only and verify information with the original video if needed."
 
+  details="
 
 0:05 Hi everyone! Today, I’m going to be talking about this paper, “How to Find Production Incidents: Empirical Study”.
 
@@ -239,3 +240,6 @@ resolve issues and incidents and see how the system is doing.
 
 23:36 Thank you.
 
+"
+
+%}
