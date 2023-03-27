@@ -2,6 +2,8 @@
 title: Transcript
 description: Transcript
 ---
+
+
 0:05 Hi everyone! Today, I’m going to be talking about this paper, “How to Find Production Incidents: Empirical Study”.
 
 0:13 Links and slides will be on that link, and all the references and all this stuff, and the video too.
