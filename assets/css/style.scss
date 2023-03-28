@@ -34,3 +34,19 @@ h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor  {
 h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
   visibility: visible;
 }
+
+.site-footer {
+  @include large {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
