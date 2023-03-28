@@ -8,7 +8,11 @@ layout: talk
 <div>
 <button id="seekButton">Seek to 30 seconds</button>
 
-<iframe id="player" src="https://www.youtube.com/embed/j6Z-TawfQn"></iframe>
+Video
+
+<div class="video-container">
+<iframe id="player" src="https://www.youtube.com/embed/j6Z-TawfQns" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
@@ -31,3 +35,6 @@ layout: talk
   });
 </script>
 </div>
+
+
+Not video
