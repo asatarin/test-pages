@@ -10,9 +10,7 @@ layout: talk
 
 Video
 
-<div class="video-container">
 <iframe id="player" src="https://www.youtube.com/embed/j6Z-TawfQns" loading="lazy" frameborder="0" allowfullscreen></iframe>
-</div>
 
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
