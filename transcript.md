@@ -3,9 +3,9 @@ title: Transcript
 description: Transcript
 ---
 
-{{ "0:05" | to_timecode_broken }}
+{% include timecode.html time="0:05" %}
 
-{{ "0:05" | to_timecode }}
+{% include timecode.html time="0:05" %}
 
 {% include details.html
 
