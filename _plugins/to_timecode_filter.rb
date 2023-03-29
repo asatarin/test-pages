@@ -2,7 +2,7 @@ module ToTimeCodeFilter
   def to_timecode(input, summary_text = "Click to expand")
     markdown = Liquid::Template.parse(input).render(@context)
     html = Jekyll::Renderer.new(@context.registers[:site], {}).convert(markdown)
-    "<details><summary>#{summary_text}</summary>#{html}</details>"
+    "<span style="color:blue">html</span>"
   end
 end
 
