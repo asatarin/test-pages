@@ -5,6 +5,3 @@ author:
   twitter: asatarin
 
 theme: jekyll-theme-cayman
-
-plugins:
-  - ./_plugins/to_timecode_filter.rb
