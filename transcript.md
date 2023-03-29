@@ -14,9 +14,11 @@ I encourage you to use it as a reference only and verify information with the or
 
   details="
 
-{% include timecode.html time="0:05" %} Hi everyone! Today, I’m going to be talking about this paper, “How to Find Production Incidents: Empirical Study”.
+{% include timecode.html time="0:05" %}
+Hi everyone! Today, I’m going to be talking about this paper, “How to Find Production Incidents: Empirical Study”.
 
-{% include timecode.html time="0:13" %} Links and slides will be on that link, and all the references and all this stuff, and the video too.
+{% include timecode.html time="0:13" %}
+Links and slides will be on that link, and all the references and all this stuff, and the video too.
 
 0:21 So, a quick outline following the paper: first, we’re going to talk about the methodology the author used to study
 those incidents. They looked into root causes and mitigation strategies. They looked into delays, what caused those
