@@ -3,6 +3,8 @@ title: Transcript
 description: Transcript
 ---
 
+{{ "0:05" | to_timecode }}
+
 {% include details.html
 
   summary="Please note that this AI-generated video transcript may contain inaccuracies or omissions. 
@@ -10,7 +12,7 @@ I encourage you to use it as a reference only and verify information with the or
 
   details="
 
-{{ "0:05" | to_timecode }}  Hi everyone! Today, I’m going to be talking about this paper, “How to Find Production Incidents: Empirical Study”.
+0:05 Hi everyone! Today, I’m going to be talking about this paper, “How to Find Production Incidents: Empirical Study”.
 
 0:13 Links and slides will be on that link, and all the references and all this stuff, and the video too.
 
