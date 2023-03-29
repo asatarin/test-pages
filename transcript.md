@@ -3,6 +3,8 @@ title: Transcript
 description: Transcript
 ---
 
+{{ "0:05" | to_timecode_broken }}
+
 {{ "0:05" | to_timecode }}
 
 {% include details.html
