@@ -16,12 +16,16 @@
         officia deserunt mollit anim id est laborum."
     </div>
     <button id="applyEnhancementsButton">Apply Typographic Enhancements</button>
+    
+    <div id="result">
+    </div>
 
     <!-- Include Typogr.js -->
     <script src="https://cdn.jsdelivr.net/gh/ekalinin/typogr.js@0.6.7/typogr.min.js"></script>
     <script>
         // Get the content div and the button
         const contentDiv = document.getElementById("content");
+        const resultDiv = document.getElementById("result");
         const applyEnhancementsButton = document.getElementById("applyEnhancementsButton");
 
         // Function to apply typographic enhancements using Typogr.js
@@ -33,7 +37,7 @@
             const enhancedContent = typogr.typogrify(originalContent);
 
             // Replace the original content with the enhanced content
-            contentDiv.innerHTML = enhancedContent;
+            resultDiv.innerHTML = enhancedContent;
         }
 
         // Add an event listener for the button click event
