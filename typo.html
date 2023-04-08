@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typogr.js Button Example</title>
+</head>
+<body>
+    <div id="content" contenteditable="true">
+        <h1>Using Typogr.js on a Web Page</h1>
+        <p>
+            Typogr.js is an amazing library for web typography. It helps you apply various typographic enhancements to your text.
+        </p>
+        <p>
+            This is an example of how to use Typogr.js on your website. Edit the content and click the "Apply Typographic Enhancements" button.
+        </p>
+    </div>
+    <button id="applyEnhancementsButton">Apply Typographic Enhancements</button>
+
+    <!-- Include Typogr.js -->
+    <script src="path/to/typogr.js"></script>
+    <script>
+        // Get the content div and the button
+        const contentDiv = document.getElementById("content");
+        const applyEnhancementsButton = document.getElementById("applyEnhancementsButton");
+
+        // Function to apply typographic enhancements using Typogr.js
+        function applyTypographicEnhancements() {
+            // Get the original HTML content
+            const originalContent = contentDiv.innerHTML;
+
+            // Apply typographic enhancements
+            const enhancedContent = typogr.typogrify(originalContent);
+
+            // Replace the original content with the enhanced content
+            contentDiv.innerHTML = enhancedContent;
+        }
+
+        // Add an event listener for the button click event
+        applyEnhancementsButton.addEventListener("click", applyTypographicEnhancements);
+    </script>
+</body>
+</html>
