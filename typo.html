@@ -6,6 +6,7 @@
     <title>Typogr.js Button Example</title>
 </head>
 <body>
+    <hr/>
     <div id="content" contenteditable="true">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -17,7 +18,11 @@
     </div>
     <button id="applyEnhancementsButton">Apply Typographic Enhancements</button>
 
+    <hr/>
     <pre id="result"></pre>
+    <hr/>
+    <div id="html-result"></div>
+    <hr/>
 
     <!-- Include Typogr.js -->
     <script src="https://cdn.jsdelivr.net/gh/ekalinin/typogr.js@0.6.7/typogr.min.js"></script>
@@ -25,6 +30,7 @@
         // Get the content div and the button
         const contentDiv = document.getElementById("content");
         const resultDiv = document.getElementById("result");
+        const htmlDiv = document.getElementById("html-result");
         const applyEnhancementsButton = document.getElementById("applyEnhancementsButton");
 
         // Function to apply typographic enhancements using Typogr.js
@@ -37,6 +43,7 @@
 
             // Replace the original content with the enhanced content
             resultDiv.textContent = enhancedContent;
+            htmlDiv.innerHtml = enhancedContent;
         }
 
         // Add an event listener for the button click event
