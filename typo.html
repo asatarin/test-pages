@@ -39,7 +39,8 @@
             const originalContent = contentDiv.innerHTML;
 
             // Apply typographic enhancements
-            const enhancedContent = typogr.typogrify(originalContent);
+            let enhancedContent = typogr.smartypants(originalContent).widont();
+            let enhancedContent = typogr.widont(enhancedContent);
 
             // Replace the original content with the enhanced content
             resultDiv.textContent = enhancedContent;
