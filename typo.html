@@ -40,7 +40,7 @@
 
             // Apply typographic enhancements
             let enhancedContent = typogr.smartypants(originalContent).widont();
-            let enhancedContent = typogr.widont(enhancedContent);
+            enhancedContent = typogr.widont(enhancedContent);
 
             // Replace the original content with the enhanced content
             resultDiv.textContent = enhancedContent;
