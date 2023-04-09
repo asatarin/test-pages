@@ -9,4 +9,4 @@ theme: jekyll-theme-cayman
 kramdown:
   strict_mode: true
   auto_ids: true
-  toc_levels: 2
+  toc_levels: "1,2,3"
