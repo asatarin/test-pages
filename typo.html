@@ -7,7 +7,7 @@
 </head>
 <body>
     <hr/>
-    <div id="content" contenteditable="true">
+    <textarea id="content">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -15,7 +15,7 @@
         voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
         officia deserunt mollit anim id est laborum."
-    </div>
+    </textarea>
     <button id="applyEnhancementsButton">Apply Typographic Enhancements</button>
 
     <hr/>
@@ -28,23 +28,23 @@
     <script src="https://cdn.jsdelivr.net/gh/ekalinin/typogr.js@0.6.7/typogr.min.js"></script>
     <script>
         // Get the content div and the button
-        const contentDiv = document.getElementById("content");
-        const resultDiv = document.getElementById("result");
-        const htmlDiv = document.getElementById("html-result");
+        const content = document.getElementById("content");
+        const result = document.getElementById("result");
+        const htmlResult = document.getElementById("html-result");
         const applyEnhancementsButton = document.getElementById("applyEnhancementsButton");
 
         // Function to apply typographic enhancements using Typogr.js
         function applyTypographicEnhancements() {
             // Get the original HTML content
-            const originalContent = contentDiv.innerHTML;
+            const originalContent = content.value;
 
             // Apply typographic enhancements
             let enhancedContent = typogr.smartypants(originalContent);
             enhancedContent = typogr.widont(enhancedContent);
 
             // Replace the original content with the enhanced content
-            resultDiv.textContent = enhancedContent;
-            htmlDiv.innerHTML = enhancedContent;
+            result.textContent = enhancedContent;
+            htmlResult.innerHTML = enhancedContent;
         }
 
         // Add an event listener for the button click event
