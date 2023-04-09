@@ -100,7 +100,7 @@ Use TOC generator to update this https://luciopaiva.com/markdown-toc/
 <img src="2022-05-understanding-partial-failures-30.png" alt="test">
 </div>
 
-## Overview of testing approaches {.toc}
+## Overview of testing approaches
 
 ### Research Papers
 * [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need right focus
