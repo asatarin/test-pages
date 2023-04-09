@@ -5,3 +5,7 @@ author:
   twitter: asatarin
 
 theme: jekyll-theme-cayman
+
+kramdown:
+  strict_mode: true
+  auto_ids: true
