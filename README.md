@@ -1,8 +1,3 @@
-
-* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
-{:toc}
-
-
 List of resources on testing distributed systems curated by Andrey Satarin ([@asatarin](https://twitter.com/asatarin)).
 If you are interested in my other stuff, checkout [talks](https://asatarin.github.io/talks) page. 
 For any questions or suggestions you can reach out to me on Twitter ([@asatarin](https://twitter.com/asatarin)) or [LinkedIn](https://www.linkedin.com/in/asatarin/).
@@ -30,67 +25,8 @@ Comments and feedback https://docs.google.com/document/d/1k0MLqGJOKMozLoWKEvPwXC
 
 **Contents**
 
-{% comment %}
-Use TOC generator to update this https://luciopaiva.com/markdown-toc/
-{% endcomment %}
-
-- [Overview of testing approaches](#overview-of-testing-approaches)
-  - [Research Papers](#research-papers)
-  - [Resilience In Complex Adaptive Systems](#resilience-in-complex-adaptive-systems)
-  - [Jepsen](#jepsen)
-  - [Formal Methods](#formal-methods)
-  - [Lineage-driven Fault Injection](#lineage-driven-fault-injection)
-  - [Chaos Engineering](#chaos-engineering)
-  - [Fuzzing](#fuzzing)
-  - [Microservices](#microservices)
-  - [Game Days](#game-days)
-  - [Performance and Benchmarking](#performance-and-benchmarking)
-  - [Test Case Reduction](#test-case-reduction)
-  - [Misc](#misc)
-- [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems)
-  - [Google](#google)
-  - [Amazon Web Services](#amazon-web-services)
-  - [Netflix](#netflix)
-  - [Microsoft](#microsoft)
-  - [FoundationDB](#foundationdb)
-  - [Cassandra](#cassandra)
-  - [ScyllaDB](#scylladb)
-  - [Dropbox](#dropbox)
-  - [Elastic (Elasticsearch)](#elastic-elasticsearch)
-  - [MongoDB](#mongodb)
-  - [Confluent (Kafka)](#confluent-kafka)
-  - [CockroachLabs (CockroachDB)](#cockroachlabs-cockroachdb)
-  - [MemSQL](#memsql)
-  - [Twitter](#twitter)
-  - [LinkedIn](#linkedin)
-  - [Salesforce](#salesforce)
-  - [VoltDB](#voltdb)
-  - [PingCap (TiDB)](#pingcap-tidb)
-  - [Cloudera](#cloudera)
-  - [Wallaroo Labs](#wallaroo-labs)
-  - [YugabyteDB](#yugabytedb)
-  - [FaunaDB](#faunadb)
-  - [Shopify](#shopify)
-  - [Hazelcast](#hazelcast)
-  - [Basho (Riak)](#basho-riak)
-  - [CoreOS (etcd)](#coreos-etcd)
-  - [Red Planet Labs](#red-planet-labs)
-  - [Atomix Copycat](#atomix-copycat)
-  - [Onyx](#onyx)
-  - [Druid.io](#druidio)
-  - [Coil (TigerBeetle)](#coil-tigerbeetle)
-  - [Convex](#convex)
-- [Single node systems](#single-node-systems)
-  - [SQLite](#sqlite)
-  - [Sled](#sled)
-  - [Clickhouse](#clickhouse)
-- [Tools](#tools)
-  - [Network Simulation](#network-simulation)
-  - [QuickCheck](#quickcheck)
-  - [Benchmarking](#benchmarking)
-  - [Linkbench](#linkbench)
-  - [YCSB](#ycsb)
-
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 <div class="video-container">
 <iframe loading="lazy" src="https://www.youtube.com/embed/LACafAXKQ4Y" frameborder="0" allowfullscreen></iframe>
