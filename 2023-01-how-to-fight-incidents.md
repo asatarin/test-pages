@@ -31,9 +31,7 @@ and provide guidance on how to tackle complex incidents through automation or te
 
 [Download slides (PDF)](/assets/talks/2023-01-how-to-fight-production-incidents.pdf)
 
-<div class="video-container">
-<script defer class="speakerdeck-embed" data-id="81e6da6877c5410eb0780b44698f11b0" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-</div>
+{% include speakerdeck.html data_id="81e6da6877c5410eb0780b44698f11b0" %}
 
 {% include youtube.html video_id="j6Z-TawfQns" %}
 
