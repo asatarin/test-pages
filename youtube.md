@@ -5,17 +5,19 @@ date: 2023-03-27
 layout: talk
 ---
 
-<button id="seekButton">Seek to 30 seconds</button>
+<button id="seekButton">Seek to 30 seconds</button><br>
 
-<span classs="timecode">0:50</span>
-<span classs="timecode">2:34</span>
-<span classs="timecode">5:13</span>
-<span classs="timecode">7:21</span>
-<span classs="timecode">9:03</span>
+<span classs="timecode">0:50</span><br>
+<span classs="timecode">2:34</span><br>
+<span classs="timecode">5:13</span><br>
+<span classs="timecode">7:21</span><br>
+<span classs="timecode">9:03</span><br>
 
-Video
+
+Video<br>
 
 <iframe id="player" src="https://www.youtube.com/embed/j6Z-TawfQns?enablejsapi=1" loading="lazy" frameborder="0" allowfullscreen></iframe>
+<br>
 
 <script async src="https://www.youtube.com/iframe_api"></script>
 <script async type="text/javascript">
@@ -54,3 +56,4 @@ Video
 </script>
 
 Not video
+<br>
