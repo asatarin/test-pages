@@ -38,7 +38,7 @@ Video<br>
     spans.forEach(span => {
       span.addEventListener('click', () => {
         // Your code to execute with the spanValue
-        player.seekTo(convertTimeToSeconds(span.textContent);
+        player.seekTo(convertTimeToSeconds(span.textContent));
       });
     });
   }
@@ -51,7 +51,7 @@ Video<br>
 
   
   document.getElementById('seekButton').addEventListener('click', function() {
-    player.seekTo(convertTimeToSeconds("0:30");
+    player.seekTo(convertTimeToSeconds("0:30"));
   });
 </script>
 
