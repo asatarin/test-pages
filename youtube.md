@@ -32,7 +32,7 @@ Video<br>
   }
 
   function onPlayerReady(event) {
-    const spans = document.querySelectorAll('.timecode');
+    const spans = document.querySelectorAll('span.timecode');
     spans.forEach(span => {
       span.addEventListener('click', () => {
         player.seekTo(convertTimeToSeconds(span.textContent));
