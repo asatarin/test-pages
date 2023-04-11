@@ -12,8 +12,8 @@ Video
 
 <iframe id="player" src="https://www.youtube.com/embed/j6Z-TawfQns?enablejsapi=1" loading="lazy" frameborder="0" allowfullscreen></iframe>
 
-<script src="https://www.youtube.com/iframe_api"></script>
-<script>
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script async type="text/javascript">
   var player;
 
   function onYouTubeIframeAPIReady() {
