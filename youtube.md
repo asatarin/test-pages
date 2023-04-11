@@ -48,7 +48,14 @@ Video<br>
     const totalSeconds = minutes * 60 + seconds;
     return totalSeconds;
   }
-
+  
+  const spans = document.querySelectorAll('.timecode');
+  spans.forEach(span => {
+    span.addEventListener('click', () => {
+      // Your code to execute with the spanValue
+      player.seekTo(convertTimeToSeconds(span.textContent));
+    });
+  });
   
   document.getElementById('seekButton').addEventListener('click', function() {
     player.seekTo(convertTimeToSeconds("0:30"));
