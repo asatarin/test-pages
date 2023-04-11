@@ -5,8 +5,13 @@ date: 2023-03-27
 layout: talk
 ---
 
-<div>
 <button id="seekButton">Seek to 30 seconds</button>
+
+<span classs="timecode">0:50</span>
+<span classs="timecode">2:34</span>
+<span classs="timecode">5:13</span>
+<span classs="timecode">7:21</span>
+<span classs="timecode">9:03</span>
 
 Video
 
@@ -26,13 +31,26 @@ Video
 
   function onPlayerReady(event) {
     // Player is ready
+    const spans = document.querySelectorAll('.timecode');
+
+    spans.forEach(span => {
+      span.addEventListener('click', () => {
+        const spanValue = span.textContent;
+        // Your code to execute with the spanValue
+      });
+    });
   }
   
+  function convertTimeToSeconds(timeString) {
+    const [minutes, seconds] = timeString.split(':').map(time => parseInt(time));
+    const totalSeconds = minutes * 60 + seconds;
+    return totalSeconds;
+  }
+
+  
   document.getElementById('seekButton').addEventListener('click', function() {
-    player.seekTo(30); // Seeks to 30 seconds into the video
+    player.seekTo(convertTimeToSeconds("0:30");
   });
 </script>
-</div>
-
 
 Not video
