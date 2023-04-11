@@ -33,6 +33,8 @@ and provide guidance on how to tackle complex incidents through automation or te
 
 {% include speakerdeck.html data_id="81e6da6877c5410eb0780b44698f11b0" %}
 
+{% include speakerdeck.html slide="10" data_id="81e6da6877c5410eb0780b44698f11b0" %}
+
 {% include youtube.html video_id="j6Z-TawfQns" %}
 
 <button id="seekButton">Seek to 30 seconds</button>
