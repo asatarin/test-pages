@@ -35,9 +35,7 @@ and provide guidance on how to tackle complex incidents through automation or te
 <script defer class="speakerdeck-embed" data-id="81e6da6877c5410eb0780b44698f11b0" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-<div class="video-container">
-<iframe id="player" src="https://www.youtube.com/embed/j6Z-TawfQns" loading="lazy" frameborder="0" allowfullscreen></iframe>
-</div>
+{% include youtube.html video_id="j6Z-TawfQns" %}
 
 <button id="seekButton">Seek to 30 seconds</button>
 
