@@ -19,8 +19,8 @@ Video<br>
 <iframe id="player" src="https://www.youtube.com/embed/j6Z-TawfQns?enablejsapi=1" loading="lazy" frameborder="0" allowfullscreen></iframe>
 <br>
 
-<script async src="https://www.youtube.com/iframe_api"></script>
-<script async type="text/javascript">
+<script defer src="https://www.youtube.com/iframe_api"></script>
+<script defer type="text/javascript">
   var player;
 
   function onYouTubeIframeAPIReady() {
