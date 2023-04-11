@@ -32,12 +32,9 @@ Video<br>
   }
 
   function onPlayerReady(event) {
-    // Player is ready
     const spans = document.querySelectorAll('.timecode');
-
     spans.forEach(span => {
       span.addEventListener('click', () => {
-        // Your code to execute with the spanValue
         player.seekTo(convertTimeToSeconds(span.textContent));
       });
     });
@@ -47,19 +44,7 @@ Video<br>
     const [minutes, seconds] = timeString.split(':').map(time => parseInt(time));
     const totalSeconds = minutes * 60 + seconds;
     return totalSeconds;
-  }
-  
-  const spans = document.querySelectorAll('.timecode');
-  spans.forEach(span => {
-    span.addEventListener('click', () => {
-      // Your code to execute with the spanValue
-      player.seekTo(convertTimeToSeconds(span.textContent));
-    });
-  });
-  
-  document.getElementById('seekButton').addEventListener('click', function() {
-    player.seekTo(convertTimeToSeconds("0:30"));
-  });
+  } 
 </script>
 
 Not video
