@@ -37,8 +37,8 @@ Video<br>
 
     spans.forEach(span => {
       span.addEventListener('click', () => {
-        const spanValue = span.textContent;
         // Your code to execute with the spanValue
+        player.seekTo(convertTimeToSeconds(span.textContent);
       });
     });
   }
