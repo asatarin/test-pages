@@ -7,11 +7,11 @@ layout: talk
 
 <button id="seekButton">Seek to 30 seconds</button><br>
 
-<span classs="timecode">0:50</span><br>
-<span classs="timecode">2:34</span><br>
-<span classs="timecode">5:13</span><br>
-<span classs="timecode">7:21</span><br>
-<span classs="timecode">9:03</span><br>
+<span class="timecode">0:50</span><br>
+<span class="timecode">2:34</span><br>
+<span class="timecode">5:13</span><br>
+<span class="timecode">7:21</span><br>
+<span class="timecode">9:03</span><br>
 
 
 Video<br>
