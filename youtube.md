@@ -84,18 +84,6 @@ I thank you for your attention and I'm up for the discussion.
 
 <script defer src="https://www.youtube.com/iframe_api"></script>
 <script defer type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.getElementsByClassName("span.timecode");
-
-    for (let i = 0; i < elements.length; i++) {
-      const link = document.createElement("a");
-      link.href = "#player";
-      link.textContent = "&ShortUpArrow;";
-
-      elements[i].insertAdjacentElement("beforebegin", link);
-    }
-  });
-
   var player;
 
   function onYouTubeIframeAPIReady() {
@@ -112,6 +100,12 @@ I thank you for your attention and I'm up for the discussion.
       span.addEventListener('click', () => {
         player.seekTo(convertTimeToSeconds(span.textContent));
       });
+  
+      const link = document.createElement("a");
+      link.href = "#player";
+      link.textContent = "&ShortUpArrow;";
+
+      span.insertAdjacentElement("beforebegin", link);
     });
   }
   
