@@ -344,14 +344,13 @@ I thank you for your attention and I'm up for the discussion.
   function onPlayerReady(event) {
     const spans = document.querySelectorAll('span.timecode');
     spans.forEach(span => {
+      const link = document.createElement("a");
+      link.href = "#player";
+      link.textContent = "&ShortUpArrow;";
+      span.insertAdjacentElement("beforebegin", link);
+  
       span.addEventListener('click', () => {
         player.seekTo(convertTimeToSeconds(span.textContent));
-  
-        const link = document.createElement("a");
-        link.href = "#player";
-        link.textContent = "&ShortUpArrow;";
-        span.insertAdjacentElement("beforebegin", link);
-  
       });
     });
   }
