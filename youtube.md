@@ -347,11 +347,11 @@ I thank you for your attention and I'm up for the discussion.
       span.addEventListener('click', () => {
         player.seekTo(convertTimeToSeconds(span.textContent));
       });
-  
+    });
     spans.forEach(span => {
         const link = document.createElement("a");
         link.href = "#player";
-        link.textContent = "&#8593;";
+        link.textContent = "&ShortUpArrow;";
         span.insertAdjacentElement("beforebegin", link);
       });
     });
