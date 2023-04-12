@@ -103,7 +103,8 @@ I thank you for your attention and I'm up for the discussion.
   
       const link = document.createElement("a");
       link.href = "#player";
-      link.textContent = "&ShortUpArrow;";
+      link.tabindex = "-1";
+      link.innerHTML = "<span class='anchor'>&ShortUpArrow;</span>";
 
       span.insertAdjacentElement("beforebegin", link);
     });
