@@ -341,7 +341,7 @@ I thank you for your attention and I'm up for the discussion.
 
       elements[i].insertAdjacentElement("beforebegin", link);
     }
-  }
+  });
 
   var player;
 
