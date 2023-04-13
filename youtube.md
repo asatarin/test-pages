@@ -30,7 +30,7 @@ I encourage you to use it as a reference only and verify information with the o
 
 <hr>
 
-<span class="timecode">0:05</span>
+<a href="#player"><span class="timecode">0:05</span></a>
 Hello everyone, my name is Andrey Satarin, and I'm going to be talking about the paper "Understanding and Detecting
 Software Upgrade Failures in Distributed Systems."
 
