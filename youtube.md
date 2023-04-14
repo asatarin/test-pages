@@ -98,25 +98,6 @@ I thank you for your attention and I'm up for the discussion.
       const span = event.target;
       player.seekTo(convertTimeToSeconds(span.textContent));
   }
-
-  function onPlayerReady(event) {
-/*
-    const spans = document.querySelectorAll('span.timecode');
-    spans.forEach(span => {
-      span.addEventListener('click', () => {
-        player.seekTo(convertTimeToSeconds(span.textContent));
-      });
-  
-
-      const link = document.createElement("a");
-      link.href = "#player";
-      link.tabindex = "-1";
-      link.innerHTML = "<span class='anchor'>&ShortUpArrow;</span>";
-
-      span.insertAdjacentElement("beforebegin", link);
-*/
-    });
-  }
   
   function convertTimeToSeconds(timeString) {
     const [minutes, seconds] = timeString.split(':').map(time => parseInt(time));
