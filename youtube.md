@@ -94,6 +94,9 @@ I thank you for your attention and I'm up for the discussion.
     });
   }
 
+  function onPlayerReady(event) {
+  }
+  
   function handleClick(event) {
       const span = event.target;
       player.seekTo(convertTimeToSeconds(span.textContent));
