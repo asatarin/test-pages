@@ -30,38 +30,38 @@ I encourage you to use it as a reference only and verify information with the o
 
 <hr>
 
-<a href="#player"><span class="timecode">0:05</span></a>
+<a href="#player"><span class="timecode" onclick="handleClick(event)">0:05</span></a>
 Hello everyone, my name is Andrey Satarin, and I'm going to be talking about the paper "Understanding and Detecting
 Software Upgrade Failures in Distributed Systems."
 
-<a href="#player"><span class="timecode">0:16</span></a>
+<a href="#player"><span class="timecode" onclick="handleClick(event)">0:16</span></a>
 So let's go. A rough outline of the talk: I'm going to give an introduction to the paper, talk about findings they have
 on severity and root causes of upgrade failures, discuss testing and detecting those failures, some conclusions, and in
 the end, I'm going to give some personal experience of me doing upgrade testing for a distributed system.
 
-<a href="#player"><span class="timecode">0:42</span></a>
+<a href="#player"><span class="timecode" onclick="handleClick(event)">0:42</span></a>
 Let's start with the introduction. What are upgrade failures? In the paper, we describe them as failures that occur
 during an upgrade. So, it's not some configuration change; it's not a bug in the new version of the software you just
 deployed. It's specifically the bug between interacting with two versions of software during the upgrade and nothing
 else.
 
-<a href="#player"><span class="timecode">1:02</span></a>
+<a href="#player"><span class="timecode" onclick="handleClick(event)">1:02</span></a>
 So, why are they important? They looked at several distributed systems, and overall, the important aspects of those
 failures were that they are large-scale because they touch either a large part of the system or the whole system.
 Upgrades usually move pretty quickly through the system, so any bugs in there are impacting the entire system.
 
-<a href="#player"><span class="timecode">1:25</span></a>
+<a href="#player"><span class="timecode" onclick="handleClick(event)">1:25</span></a>
 The upgrade itself is a disruption to the system's normal operations, which may put it in a vulnerable state. The impact
 of the bugs during the upgrade could be persistent, so you can corrupt your data, and you need to do something about it
 later, which kind of costs you. Overall, those are hard to expose in-house. There's probably a little focus on testing
 for those upgrade failures for distributed systems in general.
 
-<span class="timecode">1:49</span>
+<span class="timecode" onclick="handleClick(event)">1:49</span>
 So, what did they look at? They looked at symptoms and severity of upgrade failures, root causes, or the conditions that
 trigger them, and why they are even happening. The final goal is basically how to detect those failures in distributed
 systems and prevent them from happening in production.
 
-<span class="timecode">6:25</span>
+<span class="timecode" onclick="handleClick(event)">6:25</span>
 So the limitations in the state of the art of the systems they looked at, they noticed that there's a problem with
 workload generation. Every time someone tries to test for upgrades, they design a workload from scratch; they don't
 reuse it from somewhere else.
@@ -94,14 +94,20 @@ I thank you for your attention and I'm up for the discussion.
     });
   }
 
+  function handleClick(event) {
+      const span = event.target;
+      player.seekTo(convertTimeToSeconds(span.textContent));
+  }
+
   function onPlayerReady(event) {
+/*
     const spans = document.querySelectorAll('span.timecode');
     spans.forEach(span => {
       span.addEventListener('click', () => {
         player.seekTo(convertTimeToSeconds(span.textContent));
       });
   
-/*
+
       const link = document.createElement("a");
       link.href = "#player";
       link.tabindex = "-1";
