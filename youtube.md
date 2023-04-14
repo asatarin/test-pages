@@ -98,6 +98,9 @@ I thank you for your attention and I'm up for the discussion.
   }
   
   function handleClick(event) {
+      if (typeof player === 'undefined') {
+        return;
+      }
       const span = event.target;
       player.seekTo(convertTimeToSeconds(span.textContent));
   }
