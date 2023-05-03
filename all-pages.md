@@ -3,7 +3,7 @@ title: List of all the pages
 ---
 
 <ul>
-  {% assign pages_ordered = site.pages | where: "layout", "talk" | sort: "date"  %}
+  {% assign pages_ordered = site.pages | where: "layout", "talk" | sort: "date" | reverse %}
   {% for post in pages_ordered %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> ({{ post.date | date: "%B %Y"" }}) <br/>
