@@ -22,6 +22,7 @@ title: List of all the pages
 <ul>
   {% assign pages_ordered = site.pages | sort: "date" | reverse %}
   {% for post in pages_ordered %}
+    {% if post.url != page.url %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> ({{ post.date | date: "%B %Y"" }}) <br/>
         <p> {{ post.description }} </p>
@@ -29,6 +30,7 @@ title: List of all the pages
           <p> {{ post.snippet }} </p>
         {% endif %}
       </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
