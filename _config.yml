@@ -6,6 +6,13 @@ author:
 
 theme: jekyll-theme-cayman
 
+feed:
+  path: /test-feed.xml
+  posts_limit: 20
+
 kramdown:
   strict_mode: true
   toc_levels: "1,2,3"
+
+plugins:
+  - jekyll-feed
