@@ -8,7 +8,7 @@ title: List of all the pages
   {% assign pages_ordered = site.pages | where: "layout", "talk" | sort: "date" | reverse %}
   {% for post in pages_ordered %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> ({{ post.date | date: "%B %Y"" }}) <br/>
+        <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> ({{ post.date | date: "%B %Y" }}) <br/>
         <p> {{ post.description }} </p>
         {% if post.snippet %}
           <p> {{ post.snippet }} </p>
@@ -24,7 +24,7 @@ title: List of all the pages
   {% for post in pages_ordered %}
     {% if post.url != page.url %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> ({{ post.date | date: "%B %Y"" }}) <br/>
+        <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> ({{ post.date | date: "%B %Y" }}) <br/>
         <p> {{ post.description }} </p>
         {% if post.snippet %}
           <p> {{ post.snippet }} </p>
