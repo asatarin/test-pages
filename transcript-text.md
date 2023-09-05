@@ -4,9 +4,6 @@ description: Transcript
 ---
 
 
-{% include transcript.html 
-    summary="Click to expand transcript"
-details="
 {% include timecode.html time="0:05" %}
 
 {% include timecode.html time="0:05" %}
@@ -245,7 +242,5 @@ resolve issues and incidents and see how the system is doing.
 23:30 Yeah, that is it. Everything I wanted to say about the paper.
 
 23:36 Thank you.
-"
 
-%}
 
