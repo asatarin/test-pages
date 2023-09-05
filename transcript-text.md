@@ -1,8 +1,3 @@
----
-title: Transcript
-description: Transcript
----
-
 
 {% include timecode.html time="0:05" %}
 
