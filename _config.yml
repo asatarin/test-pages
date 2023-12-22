@@ -14,7 +14,7 @@ kramdown:
   strict_mode: true
   toc_levels: "1,2,3"
 
-url: "https://asatarin.github.io/test-pages/" # the base URL for the sitemap
+url: "https://asatarin.github.io" # the base hostname & protocol for the sitemap
 
 plugins:
   - jekyll-feed
