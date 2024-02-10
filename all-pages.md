@@ -34,3 +34,22 @@ title: List of all the pages
   {% endfor %}
 </ul>
 
+
+## All Posts
+
+All posts in reverse order:
+<ul>
+  {% assign all_posts = site.posts | where_exp: "post", "post.published == true" | sort: "date" | reverse %}
+  {% for post in all_posts %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> ({{ post.date | date: "%B %Y"" }}) <br/>
+      <p> {{ post.description }} </p>
+      {% if post.snippet %}
+        <p> {{ post.snippet }} </p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+
+
