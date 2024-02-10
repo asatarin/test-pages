@@ -19,3 +19,6 @@ url: "https://asatarin.github.io" # the base hostname & protocol for the sitemap
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+kramdown:
+  strict_mode: true
