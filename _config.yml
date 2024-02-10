@@ -7,7 +7,7 @@ author:
 theme: jekyll-theme-cayman
 
 feed:
-  path: /test-feed.xml
+  path: /feed.xml
   posts_limit: 20
 
 kramdown:
