@@ -39,7 +39,7 @@ title: List of all the pages
 
 All posts in reverse order:
 <ul>
-  {% assign all_posts = site.posts | where_exp: "post", "post.published == true" | sort: "date" | reverse %}
+  {% assign all_posts = site.posts | where_exp: "post", "post.published != false" | sort: "date" | reverse %}
   {% for post in all_posts %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> ({{ post.date | date: "%B %Y"" }}) <br/>
