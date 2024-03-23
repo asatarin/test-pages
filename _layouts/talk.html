@@ -22,6 +22,10 @@
     </section>
 
     <section class="main-content">
+      <div class="print-content">
+        Self link — <a href="{{ site.baseurl }}{{ post.url }}"> {{ site.baseurl }}{{ post.url }} </a>
+      </div>
+
       {% include anchor_headings.html html=content beforeHeading=true anchorBody="<span class='anchor'>#</span>" anchorAttrs="tabindex='-1'" %}
       
       <footer class="site-footer">

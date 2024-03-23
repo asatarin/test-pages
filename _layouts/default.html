@@ -21,6 +21,10 @@
     </header>
 
     <main class="main-content">
+      <div class="print-content">
+        Self link — <a href="{{ site.baseurl }}{{ post.url }}"> {{ site.baseurl }}{{ post.url }} </a>
+      </div>
+
       {% include anchor_headings.html html=content anchorBody="<span class='anchor'>#</span>" anchorAttrs="tabindex='-1'" %}
     </main>
     
