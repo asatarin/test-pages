@@ -81,13 +81,14 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
   width: 100%;
   overflow: hidden;
   box-shadow: rgb(220, 220, 220) 1px 5px 20px;
-  .print-content {
-    display: none;
-    @media print {
-        display: block;
-    }
-  }
   @media print {
     display: none;
+  }
+}
+
+.print-content {
+  display: none;
+    @media print {
+        display: block;
   }
 }
