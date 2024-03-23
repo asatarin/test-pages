@@ -1,6 +1,9 @@
-<div class="video-container" print-alt-url="https://youtu.be/{{ include.video_id }}">
+<div class="video-container">
 <iframe id="player"
         src="https://www.youtube.com/embed/{{ include.video_id }}?enablejsapi=1"
         loading="lazy" frameborder="0" allowfullscreen>
 </iframe>
+<div class="print-content">
+    <a href="https://youtu.be/{{ include.video_id }}">https://youtu.be/{{ include.video_id }}</a>
+</div>
 </div>
