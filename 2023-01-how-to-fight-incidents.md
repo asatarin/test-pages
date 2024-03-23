@@ -61,5 +61,3 @@ and provide guidance on how to tackle complex incidents through automation or te
 - Suman Nath`s [page](https://www.microsoft.com/en-us/research/people/sumann/) on Microsoft Research website
 
 ### Transcript
-
-[//]: # ({% include transcript.html filename="2023-01-how-to-fight-incidents.transcript.md" %})
