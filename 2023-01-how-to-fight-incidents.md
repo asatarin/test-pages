@@ -1,3 +1,4 @@
+[//]: # (@formatter:off)
 ---
 title: How to Fight Production Incidents?
 description: >
@@ -7,6 +8,7 @@ date: 2023-01-25
 image: /assets/thumbnails/2023-01-how-to-fight-incidents.webp
 layout: talk
 ---
+[//]: # (@formatter:on)
 
 This is a talk on "How to fight production incidents?: an empirical study on a large-scale cloud service"
 paper for distributed systems [reading group](http://charap.co/category/reading-group/).
@@ -45,7 +47,8 @@ and provide guidance on how to tackle complex incidents through automation or te
 - [Slides](https://acmsocc.org/2022/assets/slides/95.pdf) for the talk presented at SOCC 2022 by the authors
 - [Reading Group. How to fight production incidents?](http://charap.co/reading-group-how-to-fight-production-incidents-an-empirical-study-on-a-large-scale-cloud-service/)
   blog post by [Aleksey Charapko](http://charap.co/about-me/) on the meeting with overview of the discussion
-- Paper review by Cindy Sridharan in her [blog](https://systemsdistributed.substack.com/p/how-to-fight-production-incidents)
+- Paper review by Cindy Sridharan in
+  her [blog](https://systemsdistributed.substack.com/p/how-to-fight-production-incidents)
 - Overview talk
   on [“Understanding and Detecting Software Upgrade Failures in Distributed Systems”](/talks/2022-09-upgrade-failures-in-distributed-systems/)
   paper
