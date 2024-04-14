@@ -7,8 +7,8 @@ description: >
 date: 2023-01-25
 image: /assets/thumbnails/2023-01-how-to-fight-incidents.webp
 layout: talk
+# @formatter:on
 ---
-{% comment %} @formatter:on {% endcomment %}
 
 This is a talk on "How to fight production incidents?: an empirical study on a large-scale cloud service"
 paper for distributed systems [reading group](http://charap.co/category/reading-group/).
