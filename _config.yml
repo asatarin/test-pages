@@ -6,6 +6,8 @@ author:
 
 theme: jekyll-theme-cayman
 
+lang: en-US
+
 feed:
   path: /feed.xml
   posts_limit: 20
