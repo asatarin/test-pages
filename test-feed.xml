@@ -24,7 +24,7 @@
     </author>
   {% endif %}
 
-  {% assign posts = site.pages | where: "layout", "talk" %}
+  {% assign posts = site.pages | where_exp: "page", "page.date" %}
 
   {% unless site.show_drafts %}
     {% assign posts = posts | where_exp: "post", "post.draft != true" %}
