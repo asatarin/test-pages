@@ -5,7 +5,7 @@ layout: talk
 
 <p>Recent talks:
 <ul>
-  {% assign recent_talks = site.pages | where: "layout", "talk" | where_exp: "post" "post.url != page.url" %}
+  {% assign recent_talks = site.pages | where: "layout", "talk" | where_exp: "post", "post.url != page.url" %}
   {% assign recent_talks = recent_talks | sort: "date" | reverse %}
   {% assign limit_num = {{ include.limit | default: 4 }} %}
   {% for post in recent_talks limit:limit_num %}
