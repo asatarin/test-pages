@@ -9,3 +9,5 @@ image: /assets/thumbnails/default-thumbnail.png
 ---
 
 {% include featured.html %}
+
+Hello
