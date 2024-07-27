@@ -17,11 +17,11 @@ a {
   &:hover {
     border-bottom: thin dashed;
   }
+}
 
-  .plain {
-    &:hover {
-      border-bottom: none;
-    }
+.plain {
+  &:hover {
+    border-bottom: none;
   }
 }
 
