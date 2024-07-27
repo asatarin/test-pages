@@ -17,10 +17,7 @@ a {
   &:hover {
     text-decoration: none; border-bottom: thin dashed;
   }
-}
-
-a:hover {
-  .plain {
+  &:hover .plain {
     text-decoration: none;
   }
 }
