@@ -109,6 +109,8 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
 .featured-card {
   padding-left: 0.6em;
   padding-right: 0.6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 
   @include large {
     width: 33%;
