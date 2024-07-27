@@ -94,17 +94,12 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
 }
 
 .featured-container {
-  .row:before, .row:after {
-    content: ' ';
-    display: table;
-  }
-  .row:after {
-    clear: both;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.featured-link {
-  width: 33.3333333333%;
-  float: left;
-  padding-left: 1em;
-  padding-right: 1em;
+.featured-card {
+  width: 33%;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
 }
