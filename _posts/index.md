@@ -1,5 +1,7 @@
 ---
-redirect_to: /
+title: Posts
+description: All posts
+snippet: List of all posts by year
 ---
 
 {% assign all_years = "" -%}
